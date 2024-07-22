@@ -16,6 +16,14 @@ public class ReverseAndPalindromeNumber
             num=num/10;
         }
         System.out.println("Reverse number is :"+rev);
-
+        if(rev==temp)
+        {
+            System.out.println("the "+temp+" is palindrome number");
+        }
+        else
+        {
+            System.out.println("the "+temp+" is not palindrome number");
+        }
     }
+
 }
